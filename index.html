@@ -1,31 +1,54 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <title>Lab 01</title>
+        <style>body{
+            background-color: #001233;
+            color: #e15756; 
+        }
+        h1{
+            background-color: white;
+            width:20%;
+            text-align: center;
+            margin:auto;
+            border: 3px solid black;
+        }
+        p{
+            border: 5px solid black;
+            width: 150px;
+        }
+        </style>
+        
+    </head>
+    <body>
+        <header>
+            <h1>Class 1 Lab</h1>
+        </header>
+        
+        <main>
+            <p style="background-color: #e15756; color:#001233">What's Your Name</p>
+            <p style="background-color: yellow; color: black;">Where are you from</p>
+            <p style="background-color: #93662f; color: white">When is your Birthday</p>
+            <p style="background-color: gold; color: brown">How old will you be</p>
+        </main>
+        
+        <footer>
+            <script>
+                let name = prompt("What's Your Name?");
+                alert("Hello " + name);
+                
+                let place = prompt("Where are you from?");
+                alert("Hello " + name + " from " + place);
 
-<head>
-    <title></title>
-    <style></style>
-    <script></script>
+                let birthday = prompt("When is your Birthday?");
+                alert("Hello  " + name + " from  " + place + " come back on " + birthday);
 
-</head>
-
-<body>
-    <header>
-        <h1></h1>
-    </header>
-
-    <main>
-
-
-    </main>
-
-    <footer>
-
-
-    </footer>
+                let age = prompt("How old will you be")
+                alert("Hello  " + name + " from  " + place + " please come back on " + birthday + " when you turn "
+                + age);
+            </script>
+        </footer>
 
 
 </body>
-
-
-
 </html>
